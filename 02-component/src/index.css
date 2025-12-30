@@ -9,3 +9,9 @@ body{
   height: 100%;
   width: 100%;
 }
+.card{
+  background-color: rgb(218, 177, 184);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
