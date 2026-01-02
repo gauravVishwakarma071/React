@@ -1,5 +1,5 @@
 * {
-  margin: 1%;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'helvetica neue';
@@ -27,7 +27,7 @@ body {
 
 .card {
   padding: 20px;
-  width: 350px;
+  width: 410px;
   border: 2px solid black;
   border-radius: 15px;
   background-color: #222;
