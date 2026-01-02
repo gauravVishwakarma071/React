@@ -3,12 +3,14 @@ import Card from './components/Card'
 
 const App = () => {
   return (
-    <>
-    <Card/>
-    <Card/>
-    <Card/>
-    <Card/>
-    </>
+    <div className='parent'>
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+    </div>
   )
 }
 
