@@ -2,7 +2,7 @@ import React from 'react'
 
 const RightContent = () => {
   return (
-    <div className='bg-amber-700 h-full  w-2/3'>
+    <div className='bg-amber-700 h-full  w-3/4'>
       I am Right Content
     </div>
   )
