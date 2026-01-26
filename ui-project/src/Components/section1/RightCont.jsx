@@ -1,9 +1,12 @@
 import React from 'react'
+import RightCard from './RightCard'
 
 const RightContent = () => {
   return (
-    <div className='bg-amber-700 h-full  w-3/4'>
-      I am Right Content
+    <div className='h-full  w-3/4 p-4 rounded-4xl flex gap-8'>
+      <RightCard/>
+      <RightCard/>
+      <RightCard/>
     </div>
   )
 }
