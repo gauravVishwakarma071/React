@@ -3,7 +3,7 @@ import RightCard from './RightCard'
 
 const RightContent = () => {
   return (
-    <div className='h-full  w-3/4 p-4 rounded-4xl flex gap-8'>
+    <div className='h-full  w-3/4 p-3  rounded-4xl flex flex-nowrap gap-8'>
       <RightCard/>
       <RightCard/>
       <RightCard/>
