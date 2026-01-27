@@ -2,11 +2,11 @@ import React from 'react'
 import LeftContent from './LeftCont'
 import RightContent from './RightCont'
 
-const Center_sec1 = () => {
+const Center_sec1 = (props) => {
   return (
-    <div className='h-[90vh] py-10 px-18 flex items-center justify-between  gap-10 '>
+    <div className='h-[90vh] pt-5 pb-15 px-18 flex items-center justify-between  gap-10 '>
       <LeftContent/>
-      <RightContent/>
+      <RightContent  users={props.users}/>
     </div>
   )
 }
